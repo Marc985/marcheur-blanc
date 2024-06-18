@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="17f96dd8-bb93-4b2b-aa8b-2e8c8c890ce4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/carte/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/carte/Carte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/carte/Lieu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/carte/Lieu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/carte/Rue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/carte/Rue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/marcheur/Marche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/marcheur/Marche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/marcheur/Marcheur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/marcheur/Marcheur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hznB14nNP26XDpCwDIXQ3fW1vc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +47,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,7 +68,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718605635875</updated>
-      <workItem from="1718605637098" duration="21517000" />
+      <workItem from="1718605637098" duration="21941000" />
+      <workItem from="1718640914862" duration="6563000" />
+      <workItem from="1718688227265" duration="318000" />
     </task>
     <servers />
   </component>

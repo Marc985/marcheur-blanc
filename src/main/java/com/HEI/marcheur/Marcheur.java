@@ -5,21 +5,19 @@ import com.HEI.carte.Lieu;
 import com.HEI.carte.Rue;
 import lombok.Data;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 
 public class Marcheur {
    private String nom;
-   private Lieu positionActuel;
-   public  Marcheur(String nom,Lieu depart){
+
+   public  Marcheur(String nom){
        this.nom=nom;
-       positionActuel=depart;
    }
-    public void marcher(Lieu arrivee,Carte carte){
+    public void marcher(Lieu depart,Lieu arrivee,Carte carte){
 
-
+    Lieu positionActuel=depart;
+        Set<Rue> rueParcourues=new HashSet<>();
 
       while (!positionActuel.equals(arrivee)){
 
@@ -31,10 +29,11 @@ public class Marcheur {
               }
 
           }
-        int choisirRue=new Random().nextInt(0,rueDisponible.size());
-        Rue rueChoisi=rueDisponible.get(choisirRue);
+        int choisirRueAleatoirement=new Random().nextInt(0,rueDisponible.size());
+        Rue rueChoisi=rueDisponible.get(choisirRueAleatoirement);
+        rueParcourues.add(rueChoisi);
         positionActuel=rueChoisi.lieuOppose(positionActuel);
-          System.out.println(this.positionActuel);
+          System.out.println(positionActuel);
 
       }
 

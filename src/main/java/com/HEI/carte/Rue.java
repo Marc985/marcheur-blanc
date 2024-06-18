@@ -13,6 +13,10 @@ public class Rue {
     this.lieuDeDepart=lieuDeDepart;
 
     }
+    public Rue(Lieu lieuDeDepart,Lieu lieuDarivee){
+        this.lieuDeDepart=lieuDeDepart;
+        this.lieuDarivee=lieuDarivee;
+    }
     public Lieu lieuOppose(Lieu lieu){
         if(lieu==lieuDeDepart){
             return  lieuDarivee;
