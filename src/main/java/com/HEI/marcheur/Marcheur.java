@@ -14,10 +14,10 @@ public class Marcheur {
    public  Marcheur(String nom){
        this.nom=nom;
    }
-    public void marcher(Lieu depart,Lieu arrivee,Carte carte){
+    public List<Lieu> marcher(Lieu depart,Lieu arrivee,Carte carte){
+       List<Lieu> trajectoire=new ArrayList<>();
 
     Lieu positionActuel=depart;
-        Set<Rue> rueParcourues=new HashSet<>();
 
       while (!positionActuel.equals(arrivee)){
 
@@ -31,13 +31,13 @@ public class Marcheur {
           }
         int choisirRueAleatoirement=new Random().nextInt(0,rueDisponible.size());
         Rue rueChoisi=rueDisponible.get(choisirRueAleatoirement);
-        rueParcourues.add(rueChoisi);
         positionActuel=rueChoisi.lieuOppose(positionActuel);
-          System.out.println(positionActuel);
+          trajectoire.add(positionActuel);
 
       }
 
 
+        return trajectoire;
     };
 
 }
